@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.21;
+
+  background-color: rgb(241, 241, 241);
+  border-bottom: 1px solid rgba(207, 207, 207, 0.4);
+  border-radius: 2%;
+  box-shadow: 10px 9px 20px -4px rgba(0, 0, 0, 0.4);
+}
+
+.link {
+  margin-right: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(0, 149, 218);
+}
+
+.activeLink {
+  color: rgb(10, 95, 29);
+}

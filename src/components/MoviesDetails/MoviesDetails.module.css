@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  border-bottom: 1px solid rgba(28, 23, 26, 0.2);
+  box-shadow: 0px 7px 10px 1px rgba(28, 23, 26, 0.2);
+  background-color: rgb(241, 241, 241);
+}
+
+.content {
+  margin-left: 100px;
+  text-align: start;
+}
+
+.img {
+  width: 20vw;
+}
+
+.overview {
+  text-align: start;
+  width: 80%;
+}
+.genre:not(:last-child) {
+  margin-right: 20px;
+}
+
+.score {
+  margin-right: 5px;
+}

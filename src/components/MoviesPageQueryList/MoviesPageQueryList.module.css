@@ -1,0 +1,21 @@
+.list {
+  width: 400px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.item {
+  padding: 5px;
+  text-align: left;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 149, 218);
+  background-color: rgb(241, 241, 241);
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(10, 95, 29);
+}
